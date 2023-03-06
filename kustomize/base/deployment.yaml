@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-python
-        image: diegoluisi/hello-python
+        image: analect-io/devspace-python
         ports:
         - containerPort: 5000
         resources:

@@ -3,11 +3,11 @@ version: v1beta11
 # `vars` specifies variables which may be used as ${VAR_NAME} in devspace.yaml
 vars:
 - name: IMAGE
-  value: diegoluisi/hello-python
+  value: analect-io/devspace-python
 
 # `deployments` tells DevSpace how to deploy this project
 deployments:
-- name: hello-python
+- name: devspace-python
   # This deployment uses `kubectl` but you can also define `helm` deployments
   kubectl:
     manifests:
